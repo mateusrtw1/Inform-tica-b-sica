@@ -10,9 +10,9 @@ int main(){
             printf("\nDigite um numero de 0 a 100.\n");
             scanf("%i", &numUsuario);
 
-        if(numUsuario > 10){
+        if(numUsuario > 82){
             printf("O numero eh menor que esse.\n");
-        } else if(numUsuario < 10){
+        } else if(numUsuario < 82){
             printf("O numero eh maior que esse.\n");
         }
         contador++;
